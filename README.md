@@ -1,4 +1,4 @@
-# Justin Sun Skill - 孙宇晨认知框架
+# 孙学 Skill - 孙宇晨认知框架
 
 我们读完了孙宇晨的一切公开内容，提炼出了他的认知操作系统。
 
@@ -67,7 +67,7 @@ We read everything Justin Sun has ever said publicly, and extracted his cognitiv
 
 ### With Claude Code
 ```bash
-npx skills add 0xquqi/justin-sun-skill
+npx skills add 0xquqi/sun-skill
 ```
 
 ### Manual
