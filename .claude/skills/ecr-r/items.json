@@ -1,0 +1,60 @@
+{
+  "instrument": "Experiences in Close Relationships-Revised (ECR-R)",
+  "reference": "Fraley, R. C., Waller, N. G., & Brennan, K. A. (2000). An item response theory analysis of self-report measures of adult attachment. Journal of Personality and Social Psychology, 78(2), 350-365.",
+  "license": "Items published by the authors for use in the public domain in non-commercial research; commercial use requires the authors' permission (labs.psychology.illinois.edu/~rcfraley/measures).",
+  "provenance": {
+    "en": "Verbatim original wording, taken from psytools 0.6.3 (npm, src/inventories/ecr-r.ts), which reproduces the original instrument. Reverse keys match Fraley's item page (anxiety: 9, 11; avoidance: 20, 22, 26-31, 33-36).",
+    "zh": "Working Chinese translation made for this skill from the English original. It is NOT a validated Chinese adaptation."
+  },
+  "instructions": {
+    "en": "The statements below concern how you feel in emotionally intimate relationships. We are interested in how you generally experience relationships, not just in what is happening in a current relationship. Respond to each statement by indicating how much you agree or disagree with it.",
+    "zh": "下面的陈述涉及你在情感亲密关系中的感受。我们关心的是你在亲密关系中一贯的体验，而不仅仅是当前这段关系里正在发生的事。请对每一条陈述，表明你同意或不同意的程度。"
+  },
+  "scale": {
+    "1": {"en": "Strongly disagree", "zh": "非常不同意"},
+    "2": {"en": "", "zh": "不同意"},
+    "3": {"en": "", "zh": "有点不同意"},
+    "4": {"en": "Neutral / mixed", "zh": "中立 / 说不清"},
+    "5": {"en": "", "zh": "有点同意"},
+    "6": {"en": "", "zh": "同意"},
+    "7": {"en": "Strongly agree", "zh": "非常同意"}
+  },
+  "items": [
+    {"n": 1, "subscale": "anxiety", "reverse": false, "en": "I'm afraid that I will lose my partner's love.", "zh": "我害怕会失去伴侣的爱。"},
+    {"n": 2, "subscale": "anxiety", "reverse": false, "en": "I often worry that my partner will not want to stay with me.", "zh": "我常常担心伴侣不想和我在一起。"},
+    {"n": 3, "subscale": "anxiety", "reverse": false, "en": "I often worry that my partner doesn't really love me.", "zh": "我常常担心伴侣并不是真的爱我。"},
+    {"n": 4, "subscale": "anxiety", "reverse": false, "en": "I worry that romantic partners won't care about me as much as I care about them.", "zh": "我担心恋人对我的在乎，不如我对他/她的在乎那么多。"},
+    {"n": 5, "subscale": "anxiety", "reverse": false, "en": "I often wish that my partner's feelings for me were as strong as my feelings for him or her.", "zh": "我常常希望伴侣对我的感情，能像我对他/她的感情一样强烈。"},
+    {"n": 6, "subscale": "anxiety", "reverse": false, "en": "I worry a lot about my relationships.", "zh": "我经常为自己的感情关系担忧。"},
+    {"n": 7, "subscale": "anxiety", "reverse": false, "en": "When my partner is out of sight, I worry that he or she might become interested in someone else.", "zh": "伴侣不在我身边时，我会担心他/她可能对别人产生兴趣。"},
+    {"n": 8, "subscale": "anxiety", "reverse": false, "en": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me.", "zh": "当我向恋人表达感情时，我害怕对方对我没有同样的感觉。"},
+    {"n": 9, "subscale": "anxiety", "reverse": true, "en": "I rarely worry about my partner leaving me.", "zh": "我很少担心伴侣会离开我。"},
+    {"n": 10, "subscale": "anxiety", "reverse": false, "en": "My romantic partner makes me doubt myself.", "zh": "我的恋人让我怀疑自己。"},
+    {"n": 11, "subscale": "anxiety", "reverse": true, "en": "I do not often worry about being abandoned.", "zh": "我不太常担心被抛弃。"},
+    {"n": 12, "subscale": "anxiety", "reverse": false, "en": "I find that my partner(s) don't want to get as close as I would like.", "zh": "我发现伴侣不愿意像我希望的那样和我亲近。"},
+    {"n": 13, "subscale": "anxiety", "reverse": false, "en": "Sometimes romantic partners change their feelings about me for no apparent reason.", "zh": "有时恋人会无缘无故地改变对我的感情。"},
+    {"n": 14, "subscale": "anxiety", "reverse": false, "en": "My desire to be very close sometimes scares people away.", "zh": "我想要非常亲近的渴望，有时会把人吓跑。"},
+    {"n": 15, "subscale": "anxiety", "reverse": false, "en": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am.", "zh": "我害怕恋人一旦真正了解我，就不会喜欢真实的我。"},
+    {"n": 16, "subscale": "anxiety", "reverse": false, "en": "It makes me mad that I don't get the affection and support I need from my partner.", "zh": "得不到伴侣给我需要的关爱和支持，这让我很恼火。"},
+    {"n": 17, "subscale": "anxiety", "reverse": false, "en": "I worry that I won't measure up to other people.", "zh": "我担心自己比不上别人。"},
+    {"n": 18, "subscale": "anxiety", "reverse": false, "en": "My partner only seems to notice me when I'm angry.", "zh": "我的伴侣似乎只在我生气的时候才注意到我。"},
+    {"n": 19, "subscale": "avoidance", "reverse": false, "en": "I prefer not to show a partner how I feel deep down.", "zh": "我不愿让伴侣看到我内心深处的感受。"},
+    {"n": 20, "subscale": "avoidance", "reverse": true, "en": "I feel comfortable sharing my private thoughts and feelings with my partner.", "zh": "和伴侣分享我私密的想法和感受，我觉得很自在。"},
+    {"n": 21, "subscale": "avoidance", "reverse": false, "en": "I find it difficult to allow myself to depend on romantic partners.", "zh": "我很难允许自己依赖恋人。"},
+    {"n": 22, "subscale": "avoidance", "reverse": true, "en": "I am very comfortable being close to romantic partners.", "zh": "和恋人亲近让我感到非常自在。"},
+    {"n": 23, "subscale": "avoidance", "reverse": false, "en": "I don't feel comfortable opening up to romantic partners.", "zh": "向恋人敞开心扉让我感到不自在。"},
+    {"n": 24, "subscale": "avoidance", "reverse": false, "en": "I prefer not to be too close to romantic partners.", "zh": "我不愿和恋人太过亲近。"},
+    {"n": 25, "subscale": "avoidance", "reverse": false, "en": "I get uncomfortable when a romantic partner wants to be very close.", "zh": "当恋人想和我非常亲近时，我会感到不自在。"},
+    {"n": 26, "subscale": "avoidance", "reverse": true, "en": "I find it relatively easy to get close to my partner.", "zh": "我觉得和伴侣亲近相对容易。"},
+    {"n": 27, "subscale": "avoidance", "reverse": true, "en": "It's not difficult for me to get close to my partner.", "zh": "和伴侣亲近对我来说并不难。"},
+    {"n": 28, "subscale": "avoidance", "reverse": true, "en": "I usually discuss my problems and concerns with my partner.", "zh": "我通常会和伴侣讨论我的问题和顾虑。"},
+    {"n": 29, "subscale": "avoidance", "reverse": true, "en": "It helps to turn to my romantic partner in times of need.", "zh": "需要帮助时，向恋人求助是有用的。"},
+    {"n": 30, "subscale": "avoidance", "reverse": true, "en": "I tell my partner just about everything.", "zh": "我几乎什么都告诉伴侣。"},
+    {"n": 31, "subscale": "avoidance", "reverse": true, "en": "I talk things over with my partner.", "zh": "遇到事情我会和伴侣好好商量。"},
+    {"n": 32, "subscale": "avoidance", "reverse": false, "en": "I am nervous when partners get too close to me.", "zh": "伴侣和我太亲近时，我会紧张。"},
+    {"n": 33, "subscale": "avoidance", "reverse": true, "en": "I feel comfortable depending on romantic partners.", "zh": "依赖恋人让我感到自在。"},
+    {"n": 34, "subscale": "avoidance", "reverse": true, "en": "I find it easy to depend on romantic partners.", "zh": "我觉得依赖恋人很容易。"},
+    {"n": 35, "subscale": "avoidance", "reverse": true, "en": "It's easy for me to be affectionate with my partner.", "zh": "对伴侣表达亲昵，对我来说很容易。"},
+    {"n": 36, "subscale": "avoidance", "reverse": true, "en": "My partner really understands me and my needs.", "zh": "我的伴侣真正理解我和我的需要。"}
+  ]
+}
